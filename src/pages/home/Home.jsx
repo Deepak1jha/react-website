@@ -7,7 +7,6 @@ export default function Home() {
     <div>
       <Education/>
       <Card/>
-      <h1>dadad</h1>
     </div>
   )
 }
