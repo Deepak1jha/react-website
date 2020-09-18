@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import "../navbar/Navbar.css";
 import {Link} from "react-router-dom";
-import {Button} from "../Button/Button";
+import {Button} from "../button/Button";
 
 export default function Navbar() {
 
@@ -22,7 +22,6 @@ export default function Navbar() {
     }
   }
   window.addEventListener("resize", showButton);
-
   return (
     <>
       <nav className="navbar">
