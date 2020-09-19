@@ -44,12 +44,12 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/education" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
                 Education
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/signup" className="nav-links-mobile" onClick={closeMobileMenu}>
+              <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
                 Sign Up
               </Link>
             </li>
